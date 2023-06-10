@@ -11,7 +11,7 @@ def get_model() :
     tweet_l = []
     
     model_embedd = SentenceTransformer('bert-base-nli-mean-tokens')
-    df = pd.read_csv(r"/home/k1ra/Desktop/Web Page/v2/dataset.csv")
+    df = pd.read_csv(r"path/to/dataset.csv")
     
     user_id = 1662109353292480513
     bearer_token = "AAAAAAAAAAAAAAAAAAAAABKRewEAAAAA9QpAiN4pQyIAOPaxn%2Bf6GhhihuI%3DxoFaRotmMvU5DAMhxfrh5SvHMKuDQhfJqJsByKEj4ToZLdmnm9"
